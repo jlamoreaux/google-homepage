@@ -1,0 +1,219 @@
+body {
+  margin: -20px 0px 0px 0px;
+  padding: 0px;
+  height: 700px;
+  width: 1000px;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 700px;
+  margin: 0px 200px 0px 200px;
+  background: white;
+  position: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 25px;
+  width: 300px;
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  float: right;
+  text-align: right;
+}
+
+.header a {
+  color: #666;
+  font-family: Arial, "Times New Roman";
+  font-size: 13px;
+}
+
+.gmail {
+  float: left;
+  border: 10px;
+  position: relative;
+}
+
+.images {
+  float: left;
+  left: 20px;
+  border: 10px;
+  position: relative;
+}
+
+.square {
+  height: 25px;
+  width: 25px;
+  positon: relative;
+  left: 40px;
+  display: inline-block;
+  float: left;
+  margin: 0 40px;
+}
+
+.sign_in {
+  width: 80px;
+  height: 30px;
+  background-color: #4285F4;
+  border-radius: 3px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+  float: left;
+}
+
+.sign_in p {
+  margin-top: 7px;
+}
+
+.row1 {
+  height: 6px;
+  width: 20px;
+  position: relative;
+}
+
+.row2 {
+  height: 6px;
+  width: 25px;
+  position: relative;
+}
+
+.row3 {
+  height: 6px;
+  width: 25px;
+  position: relative;
+}
+
+#square1,
+#square2,
+#square3 {
+  width: 5px;
+  height: 5px;
+  float: left;
+  border: 1px solid white;
+  background: gray
+}
+
+#square4,
+#square5,
+#square6 {
+  width: 5px;
+  height: 5px;
+  float: left;
+  border: 1px solid white;
+  background: gray
+}
+
+#square7,
+#square8,
+#square9 {
+  width: 5px;
+  height: 5px;
+  float: left;
+  border: 1px solid white;
+  background: gray
+}
+
+p {
+  font-family: Arial, "Times New Roman";
+  font-size: 14px;
+}
+
+.center {
+  position: absolute;
+  height: 300px;
+  width 200px;
+  left: 400px;
+  top: 200px;
+}
+
+#logo {
+  position: relative;
+  text-align: center;
+}
+
+#box {
+  border: solid 1px #ccc;
+  position: relative;
+  height: 37px;
+  width: 500px;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 450px;
+  height: 30px;
+  border: 0;
+  margin: 0;
+  position: relative;
+  left: -10px;
+  top: -4px;
+}
+
+input[type=text]:focus {
+  border: 0;
+  outline: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+}
+
+form div img {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+input[type=button] {
+  border: 0;
+  background: #e4e4e4;
+  color: #666;
+  font-weight: bold;
+  height: 30px;
+  width: 150px;
+  position: relative;
+  top: 40px;
+  left: 105px;
+}
+
+.blurb {
+  position: relative;
+  text-align: center;
+  top: 75px;
+}
+
+.footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  top: 700px;
+  left: 0;
+  word-spacing: 30px;
+  width: 1300px;
+  margin: 0px 0px 0px 0px;
+}
+
+.footer a {
+  color: #666;
+  font-size: 13px;
+  font-family: Arial;
+}
+
+#left {
+  text-align: left;
+  float: left;
+  padding: 10px;
+}
+
+#right {
+  text-align: right;
+  padding: 10px;
+}
